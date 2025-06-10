@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.vulcantunes.com	TRUE	/	FALSE	1999999999	phpListSession	57a8ba95fff5505c4af573e304d6c1ce
+www.vulcantunes.com	TRUE	/	FALSE	1999999999	SameSite	Strict
+
