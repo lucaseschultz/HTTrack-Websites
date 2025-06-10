@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from www.southcliffinnsj.com/about.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Jun 2025 14:57:06 GMT -->
+<head>
+<title>South Cliff Inn | Bed and Breakfast | Overlooking Lake Michigan | Bed & Breakfast | Lake View | St Joseph | Lake Michigan | Berrien County | Southwestern Michigan</title>
+<meta name="keywords" content="" />
+<meta name="description" content="South Cliff Inn | Bed and Breakfast | Overlooking Lake Michigan | Bed & Breakfast | Lake View | St Joseph | Lake Michigan | 
+ vacation Rentals | Summer Home | Summer Cottage | BNB | Berrien County | Southwestern Michigan" />
+<meta name="revisit-after" content="30 days" />
+<meta name="author" content="Genesis Web Design" />
+<meta name="rating" content="general" />
+<meta name="robots" content="all" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language="JavaScript">
+
+  <!-- Hide from incompatible browsers
+
+  image0a = new Image(144,1000);
+  image0a.src = "topfull.gif";
+  image0c = new Image(35,1000);
+  image0c.src = "linksarea.gif";
+  image0b = new Image(30,140);
+  image0b.src = "blank.gif";
+  image1 = new Image(679,1000);
+  image1.src = "bedandbreakfast.jpg";
+  image1a = new Image(679,1000);
+  image1a.src = "bedandbreakfast1.jpg";
+  image1b = new Image(679,1000);
+  image1b.src = "bedandbreakfast2.jpg";
+  image1c = new Image(679,1000);
+  image1c.src = "bedandbreakfast3.jpg";
+  image1d = new Image(679,1000);
+  image1d.src = "bedandbreakfast4.jpg";
+  image2 = new Image(154,1000);
+  image2.src = "bottomfull.gif";
+  image3 = new Image(70,200);
+  image3.src = "reservations.gif";
+  image4 = new Image(70,250);
+  image4.src = "phone.gif";
+
+
+  // Stop hiding from incompatible browsers -->
+
+</script>
+
+<script type="text/javascript">
+
+/***********************************************
+* AnyLink Drop Down Menu- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//Contents for menu 1 - Accomodations
+var menu1=new Array()
+menu1[0]='<a href="themorning.html">THE MORNING</a>'
+menu1[1]='<a href="themanor.html">THE MANOR</a>'
+menu1[2]='<a href="thegable.html">THE GABLE</a>'
+menu1[3]='<a href="theharbour.html">THE HARBOR</a>'
+menu1[4]='<a href="theadmiralsuite.html">THE ADMIRAL SUITE</a>'
+menu1[5]='<a href="thesunset.html">THE SUNSET</a>'
+menu1[6]='<a href="thestudy.html">THE STUDY</a>'
+
+var menuwidth='140px' //default menu width
+var menubgcolor='#f0f0f0'  //menu bgcolor
+var disappeardelay=150  //menu disappear speed onMouseout (in miliseconds)
+var hidemenu_onclick="yes" //hide menu when user clicks within menu?
+
+/////No further editting needed
+
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+if (ie4||ns6)
+document.write('<div id="dropmenudiv" style="visibility:hidden;width:'+menuwidth+';background-color:'+menubgcolor+'" onMouseover="clearhidemenu()" onMouseout="dynamichide(event)"></div>')
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+
+function showhide(obj, e, visible, hidden, menuwidth){
+if (ie4||ns6)
+dropmenuobj.style.left=dropmenuobj.style.top="-500px"
+if (menuwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=menuwidth
+}
+if (e.type=="click" && obj.visibility==hidden || e.type=="mouseover")
+obj.visibility=visible
+else if (e.type=="click")
+obj.visibility=hidden
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=0
+if (whichedge=="rightedge"){
+var windowedge=ie4 && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-15 : window.pageXOffset+window.innerWidth-15
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetWidth
+}
+else{
+var topedge=ie4 && !window.opera? iecompattest().scrollTop : window.pageYOffset
+var windowedge=ie4 && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure){ //move up?
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetHeight
+if ((dropmenuobj.y-topedge)<dropmenuobj.contentmeasure) //up no good either?
+edgeoffset=dropmenuobj.y+obj.offsetHeight-topedge
+}
+}
+return edgeoffset
+}
+
+function populatemenu(what){
+if (ie4||ns6)
+dropmenuobj.innerHTML=what.join("")
+}
+
+
+function dropdownmenu(obj, e, menucontents, menuwidth){
+if (window.event) event.cancelBubble=true
+else if (e.stopPropagation) e.stopPropagation()
+clearhidemenu()
+dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
+populatemenu(menucontents)
+
+if (ie4||ns6){
+showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+"px"
+}
+
+return clickreturnvalue()
+}
+
+function clickreturnvalue(){
+if (ie4||ns6) return false
+else return true
+}
+
+function contains_ns6(a, b) {
+while (b.parentNode)
+if ((b = b.parentNode) == a)
+return true;
+return false;
+}
+
+function dynamichide(e){
+if (ie4&&!dropmenuobj.contains(e.toElement))
+delayhidemenu()
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+delayhidemenu()
+}
+
+function hidemenu(e){
+if (typeof dropmenuobj!="undefined"){
+if (ie4||ns6)
+dropmenuobj.style.visibility="hidden"
+}
+}
+
+function delayhidemenu(){
+if (ie4||ns6)
+delayhide=setTimeout("hidemenu()",disappeardelay)
+}
+
+function clearhidemenu(){
+if (typeof delayhide!="undefined")
+clearTimeout(delayhide)
+}
+
+if (hidemenu_onclick=="yes")
+document.onclick=hidemenu
+
+</script>
+
+
+<style type="text/css">
+
+<!--
+
+   #dropmenudiv  {position:absolute;
+                  border:0px solid white;
+                  border-bottom-width: 1;
+                  border-left-width: 1;
+                  border-right-width: 1;
+                  font:700 12px Arial;
+                  color: #b0b0b0;
+                  line-height:23px;
+                  z-index:100; }
+
+   #dropmenudiv a{width: 100%;
+                  display: block;
+                  text-indent: 5px;
+                  text-align: left;
+                  border-bottom: 10px #8F0000;
+                  padding: 0px;
+                  text-decoration: none;
+                  font-weight: 500;
+                  color: #b0b0b0; }
+
+   #dropmenudiv a:hover { /*hover background color*/
+                          background-color: #ffffff;
+                          color: #909090;
+                          text-decoration: none;
+                          font-weight: 500; }
+
+   .narrative  { padding-left:4px; 
+                 padding-right:4px;
+                 text-align:none;
+                 text-indent:0px;
+                 color:#707070;
+                 line-height:22px;
+                 font-weight:500;
+                 font-size:16px;
+                 font-family:Arial, Verdana, "sans-serif", Helvetica; }
+
+   .narrative1 { padding-left:14px; 
+                 padding-right:4px;
+                 text-align:none;
+                 text-indent:0px;
+                 color:#707070;
+                 line-height:23px;
+                 font-weight:500;
+                 font-size:16px;
+                 font-family:Arial, Verdana, "sans-serif", Helvetica; }
+
+   .narrative2 { padding-left:3px; 
+                 padding-right:4px;
+                 text-align:none;
+                 text-indent:0px;
+                 color:#707070;
+                 line-height:23px;
+                 font-weight:500;
+                 font-size:16px;
+                 font-family:Arial, Verdana, "sans-serif", Helvetica; }
+
+   .narrative4  { padding-left:4px; 
+                 padding-right:30px;
+                 text-align:right;
+                 text-indent:0px;
+                 color:#900000;
+                 line-height:30px;
+                 font-weight:500;
+                 font-size:16px;
+                 font-family:Arial, Verdana, "sans-serif", Helvetica; }
+
+   .small      { padding-left:0px; 
+                 padding-right:0px;
+                 text-align:none;
+                 text-indent:0px;
+                 letter-spacing:0px;
+                 color:#FFFFFF;
+                 line-height:12px;
+                 font-weight:700;
+                 font-size:11px;
+                 font-family:Arial, Verdana, "sans-serif", Helvetica; }
+
+   .address    { padding-left:0px; 
+                 padding-right:0px;
+                 text-align:none;
+                 text-indent:0px;
+                 letter-spacing:0px;
+                 color:#000000;
+                 line-height:15px;
+                 font-weight:500;
+                 font-size:11px;
+                 font-family:Arial, Verdana, "sans-serif", Helvetica; }
+
+   .header     { padding-left:4px; 
+                 padding-right:0px;
+                 text-align:none;
+                 text-indent:0px;
+                 letter-spacing:0px;
+                 color:#000000;
+                 line-height:25px;
+                 font-weight:500;
+                 font-size:19px;
+                 font-family:Arial, Verdana, "sans-serif", Helvetica; }
+
+   .header1     { padding-left:0px; 
+                 padding-right:0px;
+                 text-align:none;
+                 text-indent:0px;
+                 letter-spacing:0px;
+                 color:#000000;
+                 line-height:18px;
+                 font-weight:700;
+                 font-size:16px;
+                 font-family:Verdana, Arial, "sans-serif", Helvetica; }
+
+   .heading    { padding-left:0px; 
+                 padding-right:0px;
+                 text-align:none;
+                 text-decoration:underline overline;
+                 letter-spacing:3px;
+                 text-indent:0px;
+                 color:#A00000;
+                 line-height:16px;
+                 font-weight:700;
+                 font-size:15px;
+                 font-family:Verdana, "sans-serif", Arial, Helvetica; }
+
+   span        { padding-left:0px; 
+                 padding-right:1px;
+                 text-align:none;
+                 text-indent:0px;
+                 color:#707070;
+                 line-height:22px;
+                 font-weight:500;
+                 font-size:22px;
+                 font-family:Verdana, "sans-serif", Arial, Helvetica; }
+
+   .space      { line-height:1px; }
+   .space1     { line-height:3px; }
+   .space2     { line-height:8px; }
+   .space3     { line-height:6px; }
+   .space4     { line-height:10px; }
+   .space5     { line-height:12px; }
+   .space6     { line-height:20px; }
+
+   .background { background-repeat:no-repeat; }
+
+   .borders    { border-style:double;
+                 border-width:1px;
+                 border-color:#E0E0E0; }
+
+   .copyright  { font-weight:500;
+                 line-height:12px;
+                 font-size:9px;
+                 color:#b0b0b0;
+                 font-family:Verdana, Arial, Helvetica; }
+
+   .line       { font-weight:500;
+                 line-height:16px;
+                 padding-left:30px;
+                 text-indent:0px;
+                 font-size:11px;
+                 text-decoration:none;
+                 color:#606060;
+                 font-family:Verdana, Arial, Helvetica; }
+
+   .onpage     { font-weight:bold;
+                 line-height:12px;
+                 padding-left:5px;
+                 font-size:12px;
+                 text-decoration:none;
+                 color:#f4b79c;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.links:link { font-weight:bold;
+                 line-height:12px;
+                 padding-left:5px;
+                 font-size:12px;
+                 text-decoration:none;
+                 color:#FFFFFF;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.links:hover { font-weight:bold;
+                 line-height:12px;
+                 padding-left:5px;
+                 font-size:12px;
+                 text-decoration:none;
+                 color:#18a7c9;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.links:active { font-weight:bold;
+                 line-height:12px;
+                 padding-left:5px;
+                 font-size:12px;
+                 text-decoration:none;
+                 color:#FFFFFF;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.links:visited { font-weight:bold;
+                 line-height:12px;
+                 padding-left:5px;
+                 font-size:12px;
+                 text-decoration:none;
+                 color:#FFFFFF;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.genesis:link { font-weight:500;
+                 line-height:12px;
+                 font-size:9px;
+                 color:#b0b0b0;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.genesis:hover { font-weight:500;
+                 line-height:12px;
+                 font-size:9px;
+                 text-decoration:underline overline;
+                 color:#909090;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.genesis:active { font-weight:500;
+                 line-height:12px;
+                 font-size:9px;
+                 color:#b0b0b0;
+                 font-family:Verdana, Arial, Helvetica; }
+
+  a.genesis:visited { font-weight:500;
+                 line-height:12px;
+                 font-size:9px;
+                 color:#b0b0b0;
+                 font-family:Verdana, Arial, Helvetica; }
+
+-->
+
+</style>
+</head>
+
+<body topmargin="1" leftmargin="1" rightmargin="1" bottommargin="1" marginwidth="1"
+  marginheight="0" bgcolor="#FFFFFF" onLoad="runSlideShow();">
+
+   <center>
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+      <td align="center" valign="top" width="1000" height="144" bgcolor="#FFFFFF" background="topfull.gif">
+       <div class="small" align="center" valign="top">Bed and Breakfast | Bed & Breakfast | Southwestern Michigan |
+        St Joseph | Michigan | Lake Michigan | Lake Front
+       </div>
+      </td>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+     </tr>
+   </table>   
+   </center>
+
+   <center>
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+      <td align="center" valign="top" width="1000" height="35" bgcolor="#FFFFFF" background="linksarea.gif">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top" width="15" height="35">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="60" height="35">
+          <div align="center" valign="top">
+           <a href="index-2.html">
+            <img src="blank.gif" width="60" height="30" border="0" /></a>
+          </div>
+         </td>
+         <td align="center" valign="top" width="50" height="35">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="62" height="35">
+          <div align="center" valign="top">
+           <a href="about.html">
+            <img src="blank.gif" width="62" height="30" border="0" /></a>
+          </div>
+         </td>
+         <td align="center" valign="top" width="52" height="35">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="141" height="35">
+          <div align="center" valign="top">
+           <a href="themorning.html" onMouseover="dropdownmenu(this, event, menu1, '140px')" onMouseout="delayhidemenu()">
+            <img src="blank.gif" width="141" height="30" border="0" /></a>
+          </div>
+         </td>
+         <td align="center" valign="top" width="49" height="35">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="117" height="35">
+          <div align="center" valign="top">
+           <a href="reservations.html">
+            <img src="blank.gif" width="117" height="30" border="0" /></a>
+          </div>
+         </td>
+         <td align="center" valign="top" width="50" height="35">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="90" height="35">
+          <div align="center" valign="top">
+           <a href="location.html">
+            <img src="blank.gif" width="90" height="30" border="0" /></a>
+          </div>
+         </td>
+         <td align="center" valign="top" width="46" height="35">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="115" height="35">
+          <div align="center" valign="top">
+           <a href="attractions.html">
+            <img src="blank.gif" width="115" height="30" border="0" /></a>
+          </div>
+         </td>
+         <td align="center" valign="top" width="50" height="35">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="83" height="35">
+          <div align="center" valign="top">
+           <a href="contact.html">
+            <img src="blank.gif" width="83" height="30" border="0" /></a>
+          </div>
+         </td>
+         <td align="center" valign="top" width="19" height="35">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+     </tr>
+   </table>   
+   </center>
+
+   <center>
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+      <td align="center" valign="top" width="1000" height="500" bgcolor="#FFFFFF">
+       <br />
+       <div class="narrative" align="left" valign="top">
+        <img src="southcliffinn.jpg" width="420" height="288" align="right" />
+        <span>Established in 1987, South Cliff Inn is an award-winning bed & breakfast that 
+         overlooks Lake Michigan. In 2018 the inn was completely renovated to a new coastal feel.
+       </div>
+       <br />
+       <div class="narrative" align="left" valign="top">The inn sits on a private bluff overlooking 
+        Lake Michigan with breathtaking views and colorful sunsets. It houses seven units with 
+        private bathrooms over the three levels of the historic home, with some offering Jacuzzi 
+        tubs and fireplaces in all. Start your day with a homemade breakfast while enjoying the 
+        gorgeous perennial garden.  
+       </div>
+       <br />
+       <div class="narrative" align="left" valign="top">All rooms renovated in 2018 offering a 
+        beautiful coastal vibe offering a haven for relaxation. Each room has its own style so 
+        check out what suits you best. Almost all rooms offer a complete or partial view of 
+        Lake Michigan. Dining and game room have a complete, sweeping view of Lake Michigan, 
+        as well as the multiple decks that are available for guest enjoyment.
+
+       </div>
+       <br />
+       <div class="narrative" align="left" valign="top">Nearby you can find many great activities, 
+        including:
+        <div class="space3">&nbsp;</div>
+        <div class="narrative1" align="left" valign="top">
+         <li>Beautiful beaches:  Lions Park ¼ mile; Silver Beach 1 mile
+          <div class="space2">&nbsp;</div>
+         <li>Quaint downtown Saint Joseph, MI 1 mile away
+          <div class="space2">&nbsp;</div>
+         <li>Many famous wineries within 15 minutes
+        </div>
+       </div>
+       <br /><br />
+       <div class="header" align="left" valign="top">Meet the Innkeepers:
+       </div>
+       <div class="space4">&nbsp;</div>
+       <div class="narrative" align="left" valign="top"><strong>COMING SOON:</strong> Under new ownership...
+       </div>
+       <br /><br />
+       <div class="header" align="left" valign="top">Food & Beverage Experience:
+       </div>
+       <br />
+       <div class="space4">&nbsp;</div>
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top" width="4" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="breakfast%20-%20frying%20rice%20shows%20ingredients.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="23" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="breakfast%20-%20wide%20shot%20today%20is%20a%20good%20day%20sign%20hero.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="23" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="breakfast%20-%20cinnamon%20cake%20forefront.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="23" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="margarita%20shot%20being%20poured%20-%20best%20shot.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="3" height="346">
+          &nbsp;
+         </td>
+        </tr>
+       </table>
+
+       <br />
+       <div class="narrative1" align="left" valign="top">
+        <li>Daily homemade breakfast will include a variety of savory egg casseroles, a sweet treat, 
+         fresh fruit and a side of breakfast meat. Breakfast is accompanied with Cuban coffee 
+         offered hot or cold, a variety of teas, fresh juice and water.  Special dietary needs 
+         accommodated upon request.
+       </div>
+       <br />
+       <div class="space4">&nbsp;</div>
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top" width="4" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="the%20dominican%20shot%202.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="23" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="happy%20birthday%20with%20cakeballs.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="23" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="wine%20and%20cheese%20in%20dining%20room%20frongt%20on%20shot.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="23" height="346">
+          &nbsp;
+         </td>
+         <td align="center" valign="top" width="231" height="346">
+          <div align="center" valign="top">
+           <img src="eat%20plate%20shot%20overhead.jpg" width="231" height="346" />
+          </div>
+         </td>
+         <td align="center" valign="top" width="3" height="346">
+          &nbsp;
+         </td>
+        </tr>
+       </table>
+
+       <br /><br />
+      </td>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+     </tr>
+   </table>   
+   </center>
+
+   <center>
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+      <td align="center" valign="top" width="1000" height="154" bgcolor="#FFFFFF" background="bottomfull.gif">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top" width="375" height="90">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+           <tr>
+            <td align="center" valign="middle" width="25" height="90">
+             &nbsp;
+            </td>
+            <td align="left" valign="middle" width="55" height="56">
+             <div align="left" valign="middle">
+              <a href="https://www.facebook.com/South-Cliff-Inn-492153221150631/" target="new">  
+               <img src="facebook.gif" width="56" height="56" border="0" /></a>
+             </div>
+            </td>
+            <td align="center" valign="middle" width="295" height="90">
+             &nbsp;
+            </td>
+           </tr>
+          </table>
+         </td>
+         <td align="center" valign="middle" width="250" height="90">
+          <div align="center" valign="middle">
+           <a href="https://resnexus.com/resnexus/reservations/book/028DE0C8-14EF-4B63-B0F8-8C7F8355A9E6" target="new">
+            <img src="reservations.gif" width="200" height="70" border="0" /></a>
+          </div>
+         </td>
+         <td rowspan="2" align="right" valign="top" width="375" height="90">
+          <br />
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="top" width="375" height="64">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+           <tr>
+            <td align="center" valign="top" width="25" height="64">
+             &nbsp;
+            </td>
+            <td align="left" valign="top" width="55" height="64">
+             <div align="left" valign="top">
+              <a href="https://www.instagram.com/southcliffinn/" target="new">
+               <img src="instagram.gif" width="51" height="51" border="0" /></a>
+             </div>
+             <div class="space5">&nbsp;</div>
+            </td>
+            <td align="center" valign="top" width="295" height="64">
+             &nbsp;
+            </td>
+           </tr>
+          </table>
+         </td>
+         <td align="center" valign="top" width="250" height="64">
+          <div align="center" valign="top">
+           <a href="tel:1-269-983-4881">           
+            <img src="phone.gif" width="250" height="50" border="0" /></a>
+          </div>
+         </td>
+        </tr>
+       </table>   
+      </td>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+     </tr>
+   </table>   
+   </center>
+   <center>
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+      <td align="center" valign="top" width="1000" height="30">
+       <div class="space3">&nbsp;</div>
+       <div class="copyright" align="center" valign="top">
+         Copyright &#169; 2018 &#149; South Cliff Inn &#149  
+        <a class="genesis" href="http://www.genesiswebd.com/">Genesis Web Design</a>
+         &#32;&#149;&#32;
+        <a class="genesis" href="mailto:designer@genesiswebd.com">designer@genesiswebd.com</a></div>     
+       <div class="space3">&nbsp;</div>
+      </td>
+      <td align="center" valign="top">
+       <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="center" valign="top">
+          &nbsp;
+         </td>
+        </tr>
+       </table>   
+      </td>
+     </tr>
+   </table>   
+   </center>
+
+
+</body>
+
+<!-- Mirrored from www.southcliffinnsj.com/about.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Jun 2025 14:57:08 GMT -->
+</html>
